@@ -1,0 +1,43 @@
+# Diretórios de build e binários
+bin/
+obj/
+out/
+
+# Configurações do Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.pdb
+*.opendb
+*.VC.db
+*.dbmdl
+
+# Arquivos temporários e logs
+*.log
+*.tlog
+*.tmp
+*.bak
+*.swp
+*.sln.docstates
+
+# Pacotes NuGet e configurações locais
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.assets.json
+
+# Arquivos de publicação
+publish/
+wwwroot/
+
+# Configurações do Rider/JetBrains
+.idea/
+*.sln.iml
+
+# Configurações do Mac/Linux
+.DS_Store
+*.DS_Store
+._*
