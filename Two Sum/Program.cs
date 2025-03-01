@@ -52,8 +52,9 @@ public class Solution
     static void Main()
     {
         Solution solution = new();
-        int[] resultado = solution.TwoSum([2, 7, 11, 15], 9);
+        int[] resultado = solution.TwoSum([3, 5, 2, 4], 6);
 
+        //The program has to return the index of the numbers witch the sum is equal to the target
         if (resultado[0] != 0)
             Console.WriteLine("{0}, {1}", resultado[0], resultado[1]);
         else
